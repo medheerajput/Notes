@@ -8,7 +8,7 @@ const TodoList = (props) => {
             <hr className='text-blue-400 w-5/6 text-center m-2' />
             <span  onClick={() => {
                 props.onSelect(props.id)
-            }} className='p-2 px-6  bg-[#FF0000] text-yellow-200 text-center text-xl font-bold rounded-md'>Delete</span>
+            }} className='p-2 px-6  bg-[#FF0000] text-yellow-200 text-center text-xl font-bold rounded-md cursor-pointer'>Delete</span>
         </div>
     </>)
 }
