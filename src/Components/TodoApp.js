@@ -32,7 +32,7 @@ const TodoApp = () => {
                         className='p-2 px-12 rounded-md'
                         placeholder='Add your todo' type="text" value={text} onChange={(e) => { setText(e.target.value) }} />
                     <span
-                        className='p-2 mx-2 px-6 sm:text-2xl text-yellow-200 text-lg font-bold rounded-md text-center bg-[#FF0000]'
+                        className='p-2 mx-2 px-6 sm:text-2xl text-yellow-200 text-lg font-bold rounded-md text-center bg-[#FF0000] cursor-pointer'
                         onClick={getData}>Add</span>
                 </div>
                 <hr className='text-blue-400 w-5/6 text-center' />
